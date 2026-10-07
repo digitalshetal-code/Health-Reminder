@@ -53,5 +53,11 @@ dependencies {
     implementation("androidx.compose.material:material-icons-extended")
     implementation("androidx.activity:activity-compose:1.8.2")
 
+    // Data save ke liye
+    implementation("androidx.datastore:datastore-preferences:1.0.0")
+
+    // Notifications ke liye
+    implementation("androidx.work:work-runtime-ktx:2.9.0")
+
     debugImplementation("androidx.compose.ui:ui-tooling")
 }
